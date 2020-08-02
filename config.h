@@ -81,7 +81,7 @@ static Key keys[] = {
 	{ MODKEY,			XK_w,	   spawn,	{.v = fibrowser } },
 	{ MODKEY,			XK_v,	   spawn,	{.v = rssfeed } },
 	{ MODKEY,			XK_n,	   spawn,	{.v = filemngr } },
-	{ MODKEY, 			XK_Delete, spawn,	{.v = shutdowncmd} },
+	{ MODKEY|ShiftMask,		XK_Delete, spawn,	{.v = shutdowncmd} },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
