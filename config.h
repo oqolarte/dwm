@@ -70,7 +70,7 @@ static const char *termcmd[]  = { "st", NULL };
 static const char *cmdlock[] = { "slock", NULL };
 static const char *fibrowser[] = { "firefox", NULL };
 static const char *rssfeed[] = { "st", "newsboat", NULL };
-static const char *filemngr[] = { "st", "~/go/bin/lf", NULL };
+static const char *filemngr[] = { "st", "go/bin/lf", NULL };
 static const char *shutdowncmd[] = { "st", "doas", "shutdown", "-ph", "now", NULL };
 
 static Key keys[] = {
