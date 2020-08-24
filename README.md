@@ -2,6 +2,5 @@
 
 the only patches here are:
 - cool autostart
-- swallow
-
+- hide vacant tags
 
