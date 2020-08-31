@@ -71,7 +71,7 @@ static const char *cmdlock[] = { "slock", NULL };
 static const char *fibrowser[] = { "chrome", NULL };
 static const char *rssfeed[] = { "st", "newsboat", NULL };
 static const char *filemngr[] = { "st", "go/bin/lf", NULL };
-static const char *shutdowncmd[] = { "st", "zxcv", NULL };
+static const char *shutdowncmd[] = { "st", "doas", "shutdown", "-fph", "now", NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
